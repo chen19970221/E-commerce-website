@@ -419,6 +419,8 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 2,
+  7: $spacer * 2.5,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -561,7 +563,7 @@ $border-radius-2xl:           $border-radius-xxl !default; // Deprecated in v5.3
 
 // scss-docs-start box-shadow-variables
 $box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .75) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 // scss-docs-end box-shadow-variables
@@ -1381,11 +1383,11 @@ $accordion-body-padding-x:                $accordion-padding-x !default;
 
 $accordion-button-padding-y:              $accordion-padding-y !default;
 $accordion-button-padding-x:              $accordion-padding-x !default;
-$accordion-button-color:                  var(--#{$prefix}body-color) !default;
-$accordion-button-bg:                     var(--#{$prefix}accordion-bg) !default;
+$accordion-button-color:                  $dark; //var(--#{$prefix}body-color) !default;
+$accordion-button-bg:                     $white;//var(--#{$prefix}accordion-bg) !default;
 $accordion-transition:                    $btn-transition, border-radius .15s ease !default;
-$accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle) !default;
-$accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis) !default;
+$accordion-button-active-bg:              #E7F1FF;//var(--#{$prefix}primary-bg-subtle) !default;
+$accordion-button-active-color:           #0C63E4; //var(--#{$prefix}primary-text-emphasis) !default;
 
 // fusv-disable
 $accordion-button-focus-border-color:     $input-focus-border-color !default; // Deprecated in v5.3.3
