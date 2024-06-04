@@ -1,0 +1,21 @@
+.bg-cover {
+  height: 545px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat; 
+}
+
+.info-cover {
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat; 
+}
+
+
+
+@include media-breakpoint-up(xxl) { 
+  .bg-cover{
+    height: 627px;
+  }
+  
+}

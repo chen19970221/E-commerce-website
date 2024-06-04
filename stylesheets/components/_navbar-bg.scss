@@ -1,0 +1,9 @@
+.navbar-bg {
+  background-color: rgba($primary, .075);
+}
+
+@include media-breakpoint-up(lg) { 
+  .navbar-bg {
+    background-color: $white;
+  }
+}
